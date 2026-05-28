@@ -105,7 +105,7 @@ To reproduce the rule-based hard safety layer:
 python evaluate_rule_based_hard_safety_checks.py
 ```
 
-The GPT-5.5 reference judge is a manual workflow, not an API workflow:
+GPT-5.5 reference judge：
 
 ```powershell
 python evaluation_manual_gpt55/scripts/sample_data.py
@@ -124,11 +124,6 @@ steps and result aggregation details.
   safety/quality signals, not clinical accuracy.
 - The notebook can optionally use `OPENAI_API_KEY` if the environment variable is
   provided. No real API keys are included in this repository.
-- The GPT-5.5 reference judge results were produced through manual ChatGPT
-  copy-paste workflow files; no OpenAI API key is required for that workflow.
 - The base Qwen model weights are not included. Download them from Hugging Face
   when reproducing training or inference.
-- Several project artifacts are larger than 25 MB but below GitHub's 100 MB hard
-  file limit. Use GitHub Desktop or Git CLI for upload rather than browser drag
-  and drop.
 
