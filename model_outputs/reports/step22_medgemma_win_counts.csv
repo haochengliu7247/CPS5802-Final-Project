@@ -1,0 +1,6 @@
+﻿model_key,model_label,strict_win_count,tied_for_best_count
+teacher_qwen25_7b,Teacher: Qwen2.5-7B,839,839
+teacher_llama31_8b,Teacher: Llama 3.1 8B,874,955
+student_qwen_from_qwen,Student: 0.5B from Qwen,704,853
+student_qwen_from_llama,Student: 0.5B from Llama,329,741
+student_qwen_from_both,Student: 0.5B from Both,187,787

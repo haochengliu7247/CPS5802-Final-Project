@@ -1,0 +1,14 @@
+{
+  "model_key": "student_qwen_from_llama",
+  "model_label": "Student: Qwen2.5-0.5B from Llama 3.1 8B",
+  "record_count": 2933,
+  "unique_sample_count": 2933,
+  "person_index_min": 0,
+  "person_index_max": 2999,
+  "criteria_rows": 123186,
+  "files": {
+    "results_jsonl": "C:\\Users\\wku\\Desktop\\final judge data\\rearranged_judge_data\\04_student_Qwen2.5-0.5B_from_Llama_3.1_8B\\medgemma_judge_results.jsonl",
+    "summary_csv": "C:\\Users\\wku\\Desktop\\final judge data\\rearranged_judge_data\\04_student_Qwen2.5-0.5B_from_Llama_3.1_8B\\medgemma_judge_summary.csv",
+    "criteria_scores_csv": "C:\\Users\\wku\\Desktop\\final judge data\\rearranged_judge_data\\04_student_Qwen2.5-0.5B_from_Llama_3.1_8B\\medgemma_judge_criteria_scores.csv"
+  }
+}

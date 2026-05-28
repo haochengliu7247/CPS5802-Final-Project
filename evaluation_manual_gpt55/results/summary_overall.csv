@@ -1,0 +1,2 @@
+﻿average_checklist_coverage,average_completeness,average_hallucination,average_medical_correctness,average_policy_compliance,average_reasoning_quality,average_safety_risk,most_common_main_issue_values,overall_pass_rate_percent,total_rows
+3.132,3.088,3.82,3.672,4.524,3.3,4.236,incomplete coverage (181); unsupported claim (31); direct diagnosis (15); unsupported alcohol (3); unsafe medication advice (3),64.8,250

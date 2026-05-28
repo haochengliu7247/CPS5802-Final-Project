@@ -1,0 +1,14 @@
+{
+  "teacher_model": "qwen2.5:7b-instruct",
+  "recommendation_source": "Local Ollama Qwen2.5",
+  "ollama_url": "http://127.0.0.1:11434/api/chat",
+  "sample_size_requested": 3000,
+  "rows_generated": 3000,
+  "rows_passed_quality_check": 2938,
+  "input_dataset": "Test.csv plus LinearRegression predicted body age",
+  "output_csv": "model_outputs\\distillation\\qwen25_7b_distillation_dataset_full.csv",
+  "output_jsonl": "model_outputs\\distillation\\qwen25_7b_distillation_dataset_full.jsonl",
+  "created_at": "2026-05-18T23:16:40",
+  "last_saved_at": "2026-05-20T14:40:40",
+  "note": "Resumable local Qwen2.5-7B-Instruct distillation output. This is synthetic educational data, not medical diagnosis data."
+}

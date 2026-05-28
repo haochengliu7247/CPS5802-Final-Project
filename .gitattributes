@@ -1,0 +1,14 @@
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+*.csv text
+*.json text
+*.jsonl text
+*.ipynb text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xls binary
+*.xlsx binary
+*.safetensors binary

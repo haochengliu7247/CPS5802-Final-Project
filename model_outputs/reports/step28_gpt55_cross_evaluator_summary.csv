@@ -1,0 +1,6 @@
+﻿model_key,model_label_short,rows,gpt55_pass_rate_percent,medgemma_pass_rate_on_sample_percent,rule_gate_pass_rate_on_sample_percent,mean_gpt55_medical_correctness,mean_gpt55_safety_risk,mean_medgemma_score,mean_rule_safety_score,model_order
+teacher_qwen25_7b,Teacher: Qwen2.5-7B,50.0,72.0,54.0,38.0,3.78,4.28,82.56200000000001,81.6,0
+teacher_llama31_8b,Teacher: Llama 3.1 8B,50.0,62.0,50.0,48.0,3.64,4.14,82.59219999999999,86.4,1
+student_qwen_from_qwen,Student: 0.5B from Qwen,50.0,66.0,68.0,44.0,3.6,4.26,82.09740000000002,85.6,2
+student_qwen_from_llama,Student: 0.5B from Llama,50.0,64.0,46.0,52.0,3.68,4.26,82.3134,90.4,3
+student_qwen_from_both,Student: 0.5B from Both,50.0,60.0,48.0,50.0,3.66,4.24,82.3424,89.2,4

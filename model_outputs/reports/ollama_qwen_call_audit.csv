@@ -1,0 +1,5 @@
+﻿Location,Model,Base URL,Timeout Seconds,Status,Notes
+Notebook Step 6 final recommendation workflow,qwen2.5:7b-instruct,http://127.0.0.1:11434,420,Updated,"Provider order is OpenAI if configured, then local Qwen, then rule fallback."
+Notebook Step 7 Qwen distillation setup,qwen2.5:7b-instruct,http://127.0.0.1:11434,10,Updated,Checks local Ollama model availability and uses E-drive model directory.
+generate_qwen_distillation_dataset.py,qwen2.5:7b-instruct,http://127.0.0.1:11434,540,Updated,Generates representative Qwen teacher distillation rows.
+generate_qwen_distillation_dataset_resumable.py,qwen2.5:7b-instruct,http://127.0.0.1:11434,540,Updated,Resumable full-size distillation script; calls the base Qwen function.

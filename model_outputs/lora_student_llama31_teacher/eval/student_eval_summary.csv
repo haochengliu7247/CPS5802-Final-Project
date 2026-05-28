@@ -1,0 +1,3 @@
+﻿response_source,word_count,bullet_count,numeric_evidence_count,action_verb_count,explanation_connector_count,required_heading_coverage,recommendation_category_count,feature_evidence_count,key_signal_coverage,forbidden_term_count,medical_disclaimer_present,quality_score
+Llama 3.1 8B teacher,432.99,7.12,16.42,11.24,4.11,1.0,8.0,10.47,0.9715436507936508,0.0,0.0,90.64087301587303
+Qwen2.5-0.5B LoRA student,410.69,6.76,13.48,10.68,4.28,1.0,8.0,10.46,0.9681388888888889,0.0,0.0,90.31777777777778

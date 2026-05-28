@@ -1,0 +1,4 @@
+Compared Model,Max Absolute Difference vs Linear Regression,Mean Absolute Difference vs Linear Regression,Mean Difference vs Linear Regression
+Random Forest,11.930000000000007,2.596690000000004,-0.3094566666666669
+XGBoost,8.940000000000005,1.7549466666666662,-0.2760466666666667
+MLP Regressor,12.170000000000002,2.7810066666666686,-0.538586666666666

@@ -1,0 +1,3 @@
+﻿response_source,word_count,bullet_count,numeric_evidence_count,action_verb_count,explanation_connector_count,required_heading_coverage,recommendation_category_count,feature_evidence_count,key_signal_coverage,forbidden_term_count,medical_disclaimer_present,quality_score
+Qwen2.5-0.5B LoRA student,375.96,26.25,16.45,14.22,3.37,1.0,8.0,10.47,0.9983333333333333,0.0,0.02,91.35852380952382
+Qwen2.5-7B teacher,388.34,26.63,17.79,14.21,3.6,1.0,8.0,10.83,0.9969047619047618,0.0,0.07,92.22947619047619

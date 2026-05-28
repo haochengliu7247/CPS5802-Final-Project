@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+.venv*/
+.venv_qwen_lora/
+__pycache__/
+*.py[cod]
+
+# Local model and package caches
+pip_cache/
+huggingface_cache/
+base_models/
+tmp/
+
+# Notebook/runtime noise
+.ipynb_checkpoints/
+*.log
+logs/
+job_logs/
+full_run_logs/
+ollama_api_test_logs/
+
+# Local backups and transfer archives
+backup/
+migration_backups/
+*.before_*.ipynb
+*.zip
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

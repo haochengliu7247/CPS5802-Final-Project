@@ -1,0 +1,3 @@
+﻿response_source,word_count,bullet_count,numeric_evidence_count,action_verb_count,explanation_connector_count,required_heading_coverage,recommendation_category_count,feature_evidence_count,key_signal_coverage,forbidden_term_count,medical_disclaimer_present,quality_score
+Qwen teacher distillation,389.65418652144314,26.64363512593601,17.561266167460857,14.294417971409121,3.6531654186521445,1.0,7.99931926480599,10.764465622872702,0.9960815855727356,0.0,0.06807351940095303,92.16806595567643
+Local rule-based fallback,230.92545949625597,14.326072157930565,25.025527569775356,6.0,2.0,1.0,8.0,11.0,1.0,0.0,1.0,80.5978702713215

@@ -1,0 +1,9 @@
+﻿component,meaning,points
+Required heading coverage,Uses the requested recommendation structure,10
+Recommendation categories,"Covers exercise, diet, sleep/stress, smoking/alcohol, checks",10
+Key signal coverage,"Mentions profile risk signals such as BP, glucose, BMI, sleep, stress",20
+Feature evidence,Grounds advice in supplied profile features,15
+Action verb diversity,Provides concrete actions instead of vague advice,20
+Explanation depth,Explains why the advice fits the profile,10
+Detail level,Rewards sufficient answer detail up to a cap,10
+Safety bonus,No forbidden terms and a medical disclaimer,5

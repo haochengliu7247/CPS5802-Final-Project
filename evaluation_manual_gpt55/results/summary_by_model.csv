@@ -1,0 +1,6 @@
+﻿average_checklist_coverage,average_completeness,average_hallucination,average_medical_correctness,average_policy_compliance,average_reasoning_quality,average_safety_risk,model_id,model_label_short,most_common_main_issue_values,number_of_evaluated_rows,pass_rate_percent
+3.22,3.18,3.92,3.78,4.5,3.44,4.28,M1_teacher_Qwen2.5-7B,Teacher: Qwen2.5-7B,incomplete coverage (40); direct diagnosis (4); unsupported claim (1); unsafe medication advice (1); BP misclassification (1),50,72.0
+3.14,3.08,3.76,3.64,4.52,3.32,4.14,M2_teacher_Llama3.1-8B,Teacher: Llama 3.1 8B,incomplete coverage (33); unsupported claim (9); direct diagnosis (2); incomplete disclaimer (1); unsafe medication advice (1),50,62.0
+3.16,3.12,3.8,3.6,4.44,3.3,4.26,M3_student_Qwen2.5-0.5B_from_Qwen2.5-7B,Student: 0.5B from Qwen,incomplete coverage (32); unsupported claim (7); direct diagnosis (7); diagnostic language (1); unsupported alcohol (1),50,66.0
+3.06,3.02,3.84,3.68,4.6,3.22,4.26,M4_student_Qwen2.5-0.5B_from_Llama3.1-8B,Student: 0.5B from Llama,incomplete coverage (38); unsupported claim (7); direct diagnosis (2); predicted body (1),50,64.0
+3.08,3.04,3.78,3.66,4.56,3.22,4.24,M5_student_Qwen2.5-0.5B_from_Qwen2.5-7B_plus_Llama3.1-8B,Student: 0.5B from Both,incomplete coverage (38); unsupported claim (7); unsupported supplement (1); unsupported alcohol (1); unsafe medication advice (1),50,60.0

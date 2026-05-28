@@ -1,0 +1,440 @@
+﻿distillation_id,person_index,instruction,input_profile_json,teacher_response,teacher_model,recommendation_source,predicted_body_age_years,generation_seconds,quality_status,missing_headings,forbidden_hits,error_message,created_at
+0,2902,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 152.03676941175854, ""Weight (kg)"": 77.43433342266415, ""Blood Pressure (s/d)"": ""123/83"", ""Cholesterol Level (mg/dL)"": 245.63886435778247, ""BMI"": 33.49934368865609, ""Blood Glucose Level (mg/dL)"": 88.08913568707766, ""Bone Density (g/cm²)"": 1.6968859455194782, ""Vision Sharpness"": 0.8017329496600462, ""Hearing Ability (dB)"": 37.337134332566805, ""Physical Activity Level"": ""Low"", ""Smoking Status"": ""Never"", ""Alcohol Consumption"": null, ""Diet"": ""Vegetarian"", ""Chronic Diseases"": ""Hypertension"", ""Medication Use"": ""Regular"", ""Family History"": ""Diabetes"", ""Cognitive Function"": 79.93854640573083, ""Mental Health Status"": ""Fair"", ""Sleep Patterns"": ""Insomnia"", ""Stress Levels"": 8.285816750311644, ""Pollution Exposure"": 5.355141534079305, ""Sun Exposure"": 9.522138733366322, ""Education Level"": ""Postgraduate"", ""Income Level"": ""High"", ""Predicted Body Age (years)"": 18.0, ""key_health_signals"": [""BMI is in the obesity range: 33.5"", ""Borderline high blood pressure reading: 123/83"", ""High cholesterol: 245.6 mg/dL"", ""Low physical activity level"", ""Insomnia reported"", ""High stress level: 8.3""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 152 cm and weight of 77 kg, categorizing her as obese (BMI = 33.5). Her blood pressure reading is borderline high (123/83 mmHg), and she has high cholesterol levels (245.6 mg/dL). She reports low physical activity, insomnia, and high stress levels.
+
+**Main Risk Signals**
+
+1. Obesity (BMI = 33.5)
+2. Borderline High Blood Pressure (123/83 mmHg)
+3. High Cholesterol Levels (245.6 mg/dL)
+4. Low Physical Activity Level
+5. Insomnia
+
+**Personalized Recommendations**
+
+### Exercise
+
+* Gradually increase physical activity level to moderate intensity, aiming for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week.
+* Incorporate strength training exercises at least twice a week to improve overall muscle mass and bone density.
+
+### Diet
+
+* Focus on a balanced diet that includes plenty of fruits, vegetables, whole grains, and lean protein sources.
+* Consider consulting a registered dietitian or nutritionist for personalized dietary advice.
+* As she follows a vegetarian diet, ensure adequate intake of essential nutrients like vitamin B12, iron, and omega-3 fatty acids.
+
+### Sleep and Stress
+
+* Establish a consistent sleep schedule to improve insomnia. Aim for 7-8 hours of sleep per night.
+* Engage in stress-reducing activities such as meditation, yoga, or deep breathing exercises for at least 30 minutes a day.
+* Consider keeping a sleep diary to track progress.
+
+### Smoking and Alcohol
+
+* As she has never smoked, no specific recommendations are provided.
+* Since her alcohol consumption is unknown, it's recommended to limit or avoid excessive drinking altogether.
+
+### Follow-up Checks
+
+* Schedule regular health check-ups with a qualified healthcare professional every 6-12 months to monitor blood pressure, cholesterol levels, and glucose control.
+* Consider consulting a registered dietitian or nutritionist for personalized dietary advice.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to address the user's specific risk signals, including obesity, borderline high blood pressure, high cholesterol levels, low physical activity level, insomnia, and high stress levels. By incorporating gradual moderate exercise, balanced diet, improved sleep habits, and stress management techniques, this individual can reduce her risk of chronic diseases and improve overall health.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It's essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,18.0,102.688,passed,,,,2026-05-22T01:47:03
+1,2375,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 163.7228167764607, ""Weight (kg)"": 70.84008369111592, ""Blood Pressure (s/d)"": ""124/94"", ""Cholesterol Level (mg/dL)"": 199.7055192096763, ""BMI"": 26.42777799251424, ""Blood Glucose Level (mg/dL)"": 98.02135822100358, ""Bone Density (g/cm²)"": 1.2709585129500267, ""Vision Sharpness"": 0.8884318686779402, ""Hearing Ability (dB)"": 35.008591688865785, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Current"", ""Alcohol Consumption"": null, ""Diet"": ""Balanced"", ""Chronic Diseases"": null, ""Medication Use"": null, ""Family History"": null, ""Cognitive Function"": 69.8881608834773, ""Mental Health Status"": ""Excellent"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 2.8352701259503093, ""Pollution Exposure"": 0.6694857935229037, ""Sun Exposure"": 7.895137665015186, ""Education Level"": ""Undergraduate"", ""Income Level"": ""High"", ""Predicted Body Age (years)"": 27.47, ""key_health_signals"": [""BMI is elevated: 26.4"", ""High blood pressure reading: 124/94"", ""Current smoking status""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 163.7 cm and weight of 70.8 kg, classified as having a moderate physical activity level. Her blood pressure reading is elevated at 124/94 mmHg, and her cholesterol level is slightly above average at 199.7 mg/dL.
+
+**Main Risk Signals**
+
+1. Elevated Blood Pressure: The user's blood pressure reading of 124/94 mmHg indicates high blood pressure.
+2. High Cholesterol Level: The user's cholesterol level of 199.7 mg/dL is slightly above the recommended range.
+3. Current Smoking Status: The user is currently smoking, which increases their risk for various health conditions.
+
+**Personalized Recommendations**
+
+### Exercise
+
+* Gradually increase physical activity to at least 150 minutes of moderate-intensity aerobic exercise per week, such as brisk walking or cycling.
+* Incorporate strength training exercises two to three times a week to improve overall muscle mass and bone density.
+* Aim for at least 7-8 hours of sleep each night to aid in recovery.
+
+### Diet
+
+* Focus on consuming a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats.
+* Limit intake of processed foods, sugary drinks, and saturated fats.
+* Consider consulting with a registered dietitian or nutritionist for personalized dietary advice.
+
+### Sleep and Stress
+
+* Prioritize getting at least 7-8 hours of sleep each night to aid in recovery and reduce stress levels.
+* Engage in stress-reducing activities such as meditation, yoga, or deep breathing exercises.
+* Establish a consistent sleep schedule and create a relaxing bedtime routine.
+
+### Smoking and Alcohol
+
+* Quit smoking immediately. Consult with a healthcare professional for guidance on quitting strategies.
+* Avoid alcohol consumption altogether to minimize health risks.
+
+### Follow-up Checks
+
+* Schedule regular check-ups with a qualified healthcare professional to monitor blood pressure, cholesterol levels, and other key health signals.
+* Consider consulting with a registered dietitian or nutritionist for personalized dietary advice.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to the user's specific risk factors, including elevated blood pressure, high cholesterol level, and current smoking status. By addressing these areas, the user can reduce their risk of developing chronic diseases and improve overall health.
+
+**Medical Disclaimer**
+
+This educational lifestyle recommendation is for informational purposes only and should not be considered a substitute for professional medical advice. Consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,27.47,68.688,passed,,,,2026-05-22T01:47:03
+2,2382,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 157.66543168533792, ""Weight (kg)"": 63.55181991378621, ""Blood Pressure (s/d)"": ""167/86"", ""Cholesterol Level (mg/dL)"": 198.74546975156272, ""BMI"": 25.565543116780447, ""Blood Glucose Level (mg/dL)"": 99.90134172624184, ""Bone Density (g/cm²)"": 1.247542529579845, ""Vision Sharpness"": 0.7681742390475375, ""Hearing Ability (dB)"": 36.11485808213279, ""Physical Activity Level"": ""Low"", ""Smoking Status"": ""Never"", ""Alcohol Consumption"": ""Frequent"", ""Diet"": ""Balanced"", ""Chronic Diseases"": ""Hypertension"", ""Medication Use"": ""Regular"", ""Family History"": ""Diabetes"", ""Cognitive Function"": 58.61147077376063, ""Mental Health Status"": ""Good"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 3.983994259026578, ""Pollution Exposure"": 1.7456614419517302, ""Sun Exposure"": 1.6688766765059713, ""Education Level"": ""Postgraduate"", ""Income Level"": ""Medium"", ""Predicted Body Age (years)"": 35.25, ""key_health_signals"": [""BMI is elevated: 25.6"", ""High blood pressure reading: 167/86"", ""Low physical activity level"", ""Frequent alcohol consumption""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 157 cm and weight of 63.55 kg, resulting in a BMI of 25.57, which falls into the overweight category. Her blood pressure reading is elevated at 167/86 mmHg, indicating potential hypertension concerns. She has a balanced diet but engages in low physical activity and consumes alcohol frequently.
+
+**Main Risk Signals**
+
+1. Elevated Blood Pressure (167/86 mmHg)
+2. High Cholesterol Level (198.75 mg/dL)
+3. Low Physical Activity Level
+4. Frequent Alcohol Consumption
+
+**Personalized Recommendations**
+
+### Exercise
+
+* Given the elevated blood pressure reading, it is essential to engage in gradual moderate physical activity to help lower blood pressure and improve cardiovascular health.
+* Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week. Include strength training exercises on two or more days a week to build muscle and boost metabolism.
+
+### Diet
+
+* Continue with a balanced diet, focusing on whole foods such as fruits, vegetables, whole grains, lean proteins, and healthy fats.
+* Consider consulting a registered dietitian for personalized nutrition advice, especially given the family history of diabetes.
+
+### Sleep and Stress
+
+* Maintain normal sleep patterns to support overall health and well-being. Aim for 7-9 hours of sleep each night.
+* Engage in stress-reducing activities such as meditation, yoga, or deep breathing exercises to manage stress levels (currently at 3.98).
+
+### Smoking and Alcohol
+
+* As a non-smoker, continue avoiding smoking products.
+* Consider reducing alcohol consumption to moderate levels (1-2 drinks per day for women) to minimize potential health risks.
+
+### Follow-up Checks
+
+* Regularly monitor blood pressure readings and cholesterol levels with your healthcare provider.
+* Schedule annual check-ups with your healthcare provider to track progress and address any concerns.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to the user's specific health signals, including elevated blood pressure, high cholesterol level, low physical activity level, frequent alcohol consumption, and family history of diabetes. By addressing these risk factors through gradual moderate exercise, balanced diet, stress management, and reduced alcohol intake, this individual can take proactive steps towards improving her overall health and well-being.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. If you have any concerns about your health or experience any symptoms, please consult a qualified healthcare professional for personalized guidance.",llama3.1:8b,Local Ollama Llama3.1,35.25,73.029,passed,,,,2026-05-22T01:47:03
+3,2823,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 172.03007301017018, ""Weight (kg)"": 67.39411056712147, ""Blood Pressure (s/d)"": ""127/99"", ""Cholesterol Level (mg/dL)"": 256.2653712599856, ""BMI"": 22.77263046185892, ""Blood Glucose Level (mg/dL)"": 111.93918088094736, ""Bone Density (g/cm²)"": 1.2038183593359215, ""Vision Sharpness"": 0.5120254741305662, ""Hearing Ability (dB)"": 17.940552128029175, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Former"", ""Alcohol Consumption"": null, ""Diet"": ""Balanced"", ""Chronic Diseases"": ""Hypertension"", ""Medication Use"": ""Regular"", ""Family History"": ""Heart Disease"", ""Cognitive Function"": 54.79636810313114, ""Mental Health Status"": ""Fair"", ""Sleep Patterns"": ""Excessive"", ""Stress Levels"": 1.0138880075787822, ""Pollution Exposure"": 3.1954231215203874, ""Sun Exposure"": 3.720193333679204, ""Education Level"": ""High School"", ""Income Level"": ""High"", ""Predicted Body Age (years)"": 42.77, ""key_health_signals"": [""High blood pressure reading: 127/99"", ""High cholesterol: 256.3 mg/dL"", ""Borderline high blood glucose: 111.9 mg/dL"", ""Former smoker: relapse prevention""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 172 cm and weight of 67 kg, classified as having a moderate physical activity level. She has a balanced diet and is a former smoker. Her key health signals indicate high blood pressure, high cholesterol, borderline high blood glucose, and a need for relapse prevention.
+
+**Main Risk Signals**
+
+* High blood pressure (127/99 mmHg)
+* High cholesterol (256.3 mg/dL)
+* Borderline high blood glucose (111.9 mg/dL)
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is recommended to engage in gradual moderate-intensity physical activity, such as brisk walking or cycling, for at least 150 minutes per week. This can help lower blood pressure and improve overall cardiovascular health.
+
+### Diet
+
+The user already has a balanced diet, which is beneficial for maintaining good health. However, considering her high cholesterol levels, it may be helpful to incorporate more plant-based meals and reduce intake of saturated fats.
+
+### Sleep and Stress
+
+Given the user's excessive sleep patterns and fair mental health status, it is recommended to establish a consistent sleep schedule (7-8 hours per night) and engage in stress-reducing activities such as meditation or yoga for at least 30 minutes per day.
+
+### Smoking and Alcohol
+
+As a former smoker, the user should continue to avoid smoking and nicotine products. There is no information on alcohol consumption, so it's recommended to limit or avoid alcohol intake altogether.
+
+### Follow-up Checks
+
+It is essential to consult with a qualified healthcare professional for regular check-ups to monitor blood pressure, cholesterol levels, and glucose control. This will help in making informed decisions about lifestyle modifications and potential medical interventions.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored based on the user's key health signals (high blood pressure, high cholesterol, borderline high blood glucose) and profile characteristics (former smoker, balanced diet). The goal is to provide a comprehensive approach to improving overall health and reducing risk factors associated with chronic diseases.
+
+**Medical Disclaimer**
+
+This educational lifestyle recommendation is for informational purposes only. It is not intended to diagnose or treat any medical condition. Consult a qualified healthcare professional before making significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,42.77,60.893,passed,,,,2026-05-22T01:47:03
+4,2571,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 167.74566855957187, ""Weight (kg)"": 78.04229824431955, ""Blood Pressure (s/d)"": ""163/102"", ""Cholesterol Level (mg/dL)"": 211.19137107463123, ""BMI"": 27.73495212766936, ""Blood Glucose Level (mg/dL)"": 145.34456270958017, ""Bone Density (g/cm²)"": 0.9278926319028362, ""Vision Sharpness"": 0.6016038318628645, ""Hearing Ability (dB)"": 30.847763197801243, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Never"", ""Alcohol Consumption"": ""Occasional"", ""Diet"": ""Balanced"", ""Chronic Diseases"": null, ""Medication Use"": null, ""Family History"": null, ""Cognitive Function"": 69.36498237947787, ""Mental Health Status"": ""Good"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 3.071893708903505, ""Pollution Exposure"": 8.929809881216821, ""Sun Exposure"": 3.917430048380524, ""Education Level"": ""Undergraduate"", ""Income Level"": ""Low"", ""Predicted Body Age (years)"": 49.98, ""key_health_signals"": [""BMI is elevated: 27.7"", ""High blood pressure reading: 163/102"", ""Borderline high cholesterol: 211.2 mg/dL"", ""High blood glucose: 145.3 mg/dL""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 167 cm and weight of 78 kg, categorizing her as moderately overweight (BMI 27.7). Her physical activity level is moderate, and she has never smoked. She consumes alcohol occasionally and follows a balanced diet.
+
+**Main Risk Signals**
+
+* Elevated BMI
+* High blood pressure reading (163/102)
+* Borderline high cholesterol (211.2 mg/dL)
+* High blood glucose (145.3 mg/dL)
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is recommended to engage in gradual moderate-intensity physical activity, such as brisk walking, cycling, or swimming for at least 150 minutes per week. This can help lower blood pressure and improve overall health without putting excessive strain on the cardiovascular system.
+
+### Diet
+
+The user already follows a balanced diet, which is commendable. However, considering her high cholesterol and glucose levels, it may be beneficial to incorporate more plant-based meals, reduce saturated fat intake, and increase fiber consumption. Aiming for 5 servings of fruits and vegetables daily can help manage these conditions.
+
+### Sleep and Stress
+
+The user reports normal sleep patterns and good mental health status. However, given her stress levels (3.07), it may be beneficial to engage in relaxation techniques such as meditation or deep breathing exercises for at least 30 minutes a day. This can help manage stress and potentially improve overall well-being.
+
+### Smoking and Alcohol
+
+The user has never smoked and consumes alcohol occasionally. These habits are considered low-risk, but it's always a good idea to be mindful of alcohol consumption levels.
+
+### Follow-up Checks
+
+Given the high blood pressure reading, it is recommended that the user consults a qualified healthcare professional for further evaluation and guidance on managing her condition. Regular check-ups can help monitor progress and make necessary adjustments to her lifestyle recommendations.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored based on the key health signals provided, including elevated BMI, high blood pressure reading, borderline high cholesterol, and high blood glucose levels. The user's physical activity level, diet, sleep patterns, stress levels, and alcohol consumption habits were also considered to provide a comprehensive set of lifestyle suggestions.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered as medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or health management plan.",llama3.1:8b,Local Ollama Llama3.1,49.98,64.933,passed,,,,2026-05-22T01:47:03
+5,369,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Male"", ""Height (cm)"": 171.12786136580206, ""Weight (kg)"": 95.7515838090696, ""Blood Pressure (s/d)"": ""123/91"", ""Cholesterol Level (mg/dL)"": 260.7677459898489, ""BMI"": 32.696745018448404, ""Blood Glucose Level (mg/dL)"": 119.5838424443988, ""Bone Density (g/cm²)"": 0.7037716605269541, ""Vision Sharpness"": 0.4726636417482098, ""Hearing Ability (dB)"": 50.02368836787355, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Never"", ""Alcohol Consumption"": null, ""Diet"": ""Low-carb"", ""Chronic Diseases"": null, ""Medication Use"": ""Occasional"", ""Family History"": null, ""Cognitive Function"": 53.32950547048666, ""Mental Health Status"": ""Good"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 1.1732406746400457, ""Pollution Exposure"": 8.252149457518431, ""Sun Exposure"": 1.7126622476224571, ""Education Level"": ""High School"", ""Income Level"": ""Medium"", ""Predicted Body Age (years)"": 57.62, ""key_health_signals"": [""Moderately high predicted body age: 57.6 years"", ""BMI is in the obesity range: 32.7"", ""High blood pressure reading: 123/91"", ""High cholesterol: 260.8 mg/dL"", ""Borderline high blood glucose: 119.6 mg/dL""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 171 cm and weight of 95.75 kg, categorizing him as obese (BMI = 32.7). His blood pressure reading is high at 123/91 mmHg, indicating potential cardiovascular risk. Additionally, his cholesterol level is elevated at 260.8 mg/dL, and his blood glucose level is borderline high at 119.6 mg/dL.
+
+**Main Risk Signals**
+
+1. High Blood Pressure (123/91 mmHg)
+2. Elevated Cholesterol Level (260.8 mg/dL)
+3. Borderline High Blood Glucose Level (119.6 mg/dL)
+4. Obesity (BMI = 32.7)
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is recommended to engage in gradual moderate physical activity, such as brisk walking or cycling, for at least 150 minutes per week. This can help lower blood pressure and improve cardiovascular health.
+
+### Diet
+
+Considering the user's diet preference is low-carb, it is suggested to maintain this dietary approach while focusing on incorporating more plant-based meals and reducing saturated fat intake. Aiming for a balanced diet that includes plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats can help manage cholesterol levels and blood glucose.
+
+### Sleep and Stress
+
+The user reports normal sleep patterns, which is beneficial. However, managing stress effectively is crucial. Engaging in relaxation techniques such as meditation or deep breathing exercises for at least 30 minutes a day can help reduce stress levels (Stress Levels = 1.17).
+
+### Smoking and Alcohol
+
+As the user has never smoked, this is a positive aspect of their health profile. However, since there's no information on alcohol consumption, it's recommended to limit or avoid alcohol intake altogether.
+
+### Follow-up Checks
+
+Given the high risk signals identified, consulting a qualified healthcare professional for further evaluation and guidance is strongly advised. Regular check-ups will help monitor progress and adjust recommendations as needed.
+
+**Why These Recommendations Match This User**
+
+These personalized recommendations are based on the user's key health signals, including their high predicted body age (57.6 years), obesity (BMI = 32.7), high blood pressure reading (123/91 mmHg), elevated cholesterol level (260.8 mg/dL), and borderline high blood glucose level (119.6 mg/dL). The recommendations aim to address these risk factors through gradual moderate physical activity, balanced diet, stress management, and regular follow-up checks.
+
+**Medical Disclaimer**
+
+These lifestyle recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or health regimen, especially if you have high blood pressure, elevated cholesterol levels, or borderline high blood glucose levels.",llama3.1:8b,Local Ollama Llama3.1,57.62,75.783,passed,,,,2026-05-22T01:47:03
+6,618,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 173.81070773616173, ""Weight (kg)"": 58.11350091363233, ""Blood Pressure (s/d)"": ""173/84"", ""Cholesterol Level (mg/dL)"": 285.5836317201524, ""BMI"": 19.2364081581524, ""Blood Glucose Level (mg/dL)"": 126.55108718053548, ""Bone Density (g/cm²)"": 0.8052261643509793, ""Vision Sharpness"": 0.2582114055690406, ""Hearing Ability (dB)"": 32.75241349350976, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Current"", ""Alcohol Consumption"": ""Frequent"", ""Diet"": ""High-fat"", ""Chronic Diseases"": ""Hypertension"", ""Medication Use"": null, ""Family History"": ""Hypertension"", ""Cognitive Function"": 39.06197120287041, ""Mental Health Status"": ""Good"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 2.2579926934432866, ""Pollution Exposure"": 0.7520879035199179, ""Sun Exposure"": 0.5386282259606774, ""Education Level"": null, ""Income Level"": ""Low"", ""Predicted Body Age (years)"": 65.1, ""key_health_signals"": [""Moderately high predicted body age: 65.1 years"", ""High blood pressure reading: 173/84"", ""High cholesterol: 285.6 mg/dL"", ""High blood glucose: 126.6 mg/dL"", ""Current smoking status"", ""Frequent alcohol consumption""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 173.8 cm and weight of 58.1 kg, resulting in a BMI of 19.2, which falls within the normal range. However, she has several key health signals that require attention.
+
+**Main Risk Signals**
+
+* High predicted body age: 65.1 years
+* High blood pressure reading: 173/84
+* High cholesterol level: 285.6 mg/dL
+* High blood glucose level: 126.6 mg/dL
+* Current smoking status
+* Frequent alcohol consumption
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the high blood pressure reading, it is essential to recommend gradual moderate activity instead of high-intensity exercise (HIIT). This individual should aim for at least 150 minutes of moderate aerobic physical activity or 75 minutes of vigorous aerobic physical activity per week. Additionally, incorporating strength training exercises two times a week can help improve overall health.
+
+### Diet
+
+Considering the user's current diet is high in fat, it is recommended to adopt a balanced diet that includes plenty of fruits, vegetables, whole grains, and lean protein sources. Aiming for 5-7 servings of colorful fruits and vegetables daily can help lower cholesterol levels and improve overall health.
+
+### Sleep and Stress
+
+The user reports normal sleep patterns, which is excellent. However, given the high stress levels (2.26), it is essential to prioritize stress management techniques such as meditation, yoga, or deep breathing exercises for at least 30 minutes a day.
+
+### Smoking and Alcohol
+
+As the user is currently smoking, quitting is crucial. It is recommended to consult a healthcare professional for guidance on nicotine cessation programs. Additionally, reducing frequent alcohol consumption to moderate levels (1-2 drinks per day) can help lower blood pressure and improve overall health.
+
+### Follow-up Checks
+
+It is essential to schedule regular follow-up checks with a qualified healthcare professional to monitor the user's progress and adjust recommendations as needed.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to address the user's specific risk signals, including high predicted body age, blood pressure, cholesterol, and glucose levels. By incorporating gradual moderate activity, balanced diet, stress management techniques, quitting smoking, and reducing alcohol consumption, this individual can take significant steps towards improving her overall health.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,65.1,63.07,passed,,,,2026-05-22T01:47:03
+7,1294,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Male"", ""Height (cm)"": 150.82652141768563, ""Weight (kg)"": 84.61471472766063, ""Blood Pressure (s/d)"": ""157/101"", ""Cholesterol Level (mg/dL)"": 231.721781728592, ""BMI"": 37.19550546901026, ""Blood Glucose Level (mg/dL)"": 126.32355290920152, ""Bone Density (g/cm²)"": 0.502641096167726, ""Vision Sharpness"": 0.2, ""Hearing Ability (dB)"": 54.58906715875177, ""Physical Activity Level"": ""Low"", ""Smoking Status"": ""Current"", ""Alcohol Consumption"": ""Occasional"", ""Diet"": ""Balanced"", ""Chronic Diseases"": ""Hypertension"", ""Medication Use"": ""Occasional"", ""Family History"": ""Hypertension"", ""Cognitive Function"": 65.97008601961915, ""Mental Health Status"": ""Poor"", ""Sleep Patterns"": ""Insomnia"", ""Stress Levels"": 9.374734006374998, ""Pollution Exposure"": 3.2065241428469813, ""Sun Exposure"": 6.483440452497881, ""Education Level"": ""High School"", ""Income Level"": ""High"", ""Predicted Body Age (years)"": 73.15, ""key_health_signals"": [""High predicted body age: 73.2 years"", ""BMI is in the obesity range: 37.2"", ""High blood pressure reading: 157/101"", ""Borderline high cholesterol: 231.7 mg/dL"", ""High blood glucose: 126.3 mg/dL"", ""Low physical activity level"", ""Current smoking status"", ""Insomnia reported"", ""High stress level: 9.4""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 150 cm and weight of 84 kg, classified as obese (BMI = 37.2). He has high blood pressure (157/101 mmHg), borderline high cholesterol (231.7 mg/dL), and high blood glucose levels (126.3 mg/dL). His predicted body age is 73.2 years, indicating a higher risk of chronic diseases.
+
+**Main Risk Signals**
+
+1. High BMI (obesity)
+2. High Blood Pressure
+3. Borderline High Cholesterol
+4. High Blood Glucose Levels
+5. Low Physical Activity Level
+6. Current Smoking Status
+7. Insomnia and High Stress Levels
+
+**Personalized Recommendations**
+
+### Exercise
+
+* Gradually increase physical activity to moderate levels (e.g., 30 minutes of brisk walking per day) to improve cardiovascular health and reduce blood pressure.
+* Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week.
+
+### Diet
+
+* Focus on a balanced diet with plenty of fruits, vegetables, whole grains, and lean protein sources to help manage weight and improve overall nutrition.
+* Consider consulting a registered dietitian or a qualified healthcare professional for personalized dietary advice.
+
+### Sleep and Stress
+
+* Establish a consistent sleep schedule and create a relaxing bedtime routine to improve insomnia symptoms.
+* Engage in stress-reducing activities, such as meditation, yoga, or deep breathing exercises, to manage high stress levels.
+
+### Smoking and Alcohol
+
+* Quit smoking immediately to reduce the risk of chronic diseases and improve overall health.
+* Limit occasional alcohol consumption to special occasions only and avoid excessive drinking.
+
+### Follow-up Checks
+
+* Schedule regular check-ups with a qualified healthcare professional to monitor blood pressure, cholesterol, and glucose levels.
+* Consider consulting a registered dietitian or a nutritionist for personalized dietary advice.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to the user's specific health signals, including high BMI, high blood pressure, borderline high cholesterol, and high blood glucose levels. The suggested exercise plan is designed to improve cardiovascular health and reduce blood pressure, while the diet recommendations aim to promote weight management and overall nutrition. The sleep and stress advice focuses on improving insomnia symptoms and managing high stress levels.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,73.15,63.217,passed,,,,2026-05-22T01:47:03
+8,2014,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Male"", ""Height (cm)"": 173.04936018331554, ""Weight (kg)"": 88.91553173007375, ""Blood Pressure (s/d)"": ""173/105"", ""Cholesterol Level (mg/dL)"": 281.80603191096554, ""BMI"": 29.691875725692924, ""Blood Glucose Level (mg/dL)"": 146.1275212035284, ""Bone Density (g/cm²)"": 0.5498245018791383, ""Vision Sharpness"": 0.2732209008757922, ""Hearing Ability (dB)"": 75.38999775476427, ""Physical Activity Level"": ""Low"", ""Smoking Status"": ""Former"", ""Alcohol Consumption"": null, ""Diet"": ""Vegetarian"", ""Chronic Diseases"": null, ""Medication Use"": ""Occasional"", ""Family History"": null, ""Cognitive Function"": 56.89237070405712, ""Mental Health Status"": ""Poor"", ""Sleep Patterns"": ""Excessive"", ""Stress Levels"": 8.279896434497592, ""Pollution Exposure"": 5.301101547452367, ""Sun Exposure"": 1.7107079362543884, ""Education Level"": ""High School"", ""Income Level"": ""Medium"", ""Predicted Body Age (years)"": 79.64, ""key_health_signals"": [""High predicted body age: 79.6 years"", ""BMI is elevated: 29.7"", ""High blood pressure reading: 173/105"", ""High cholesterol: 281.8 mg/dL"", ""High blood glucose: 146.1 mg/dL"", ""Low physical activity level"", ""Former smoker: relapse prevention"", ""High stress level: 8.3""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 173 cm and weight of 89 kg, classified as overweight (BMI = 29.7). He has a history of smoking but is now a former smoker. His blood pressure reading is elevated at 173/105 mmHg, and his cholesterol level is high at 281.8 mg/dL. Additionally, he experiences excessive sleep patterns and reports poor mental health status.
+
+**Main Risk Signals**
+
+1. Elevated BMI (29.7)
+2. High Blood Pressure (173/105 mmHg)
+3. High Cholesterol Level (281.8 mg/dL)
+4. High Blood Glucose Level (146.1 mg/dL)
+5. Excessive Sleep Patterns
+6. Poor Mental Health Status
+
+**Personalized Recommendations**
+
+### Exercise
+
+* Given the high blood pressure reading, it is recommended to engage in gradual moderate-intensity physical activity, such as brisk walking or cycling, for at least 150 minutes per week. This can help improve cardiovascular health and reduce blood pressure.
+* Consider consulting a qualified healthcare professional before starting any new exercise program.
+
+### Diet
+
+* As a vegetarian, focus on consuming a balanced diet rich in fruits, vegetables, whole grains, and lean protein sources.
+* Consider increasing your intake of omega-3 fatty acids found in nuts, seeds, and avocados to help lower cholesterol levels.
+* Limit processed foods and added sugars that can exacerbate high blood glucose.
+
+### Sleep and Stress
+
+* Address excessive sleep patterns by establishing a consistent sleep schedule and creating a relaxing bedtime routine.
+* Engage in stress-reducing activities such as meditation, yoga, or deep breathing exercises to manage high stress levels (8.3).
+
+### Smoking and Alcohol
+
+* As a former smoker, focus on relapse prevention strategies such as avoiding triggers and staying connected with support groups.
+
+### Follow-up Checks
+
+* Regularly monitor blood pressure, cholesterol, and glucose levels.
+* Schedule follow-up appointments with your healthcare provider to track progress and adjust recommendations as needed.
+
+**Why These Recommendations Match This User**
+
+These personalized recommendations are based on the user's key health signals, including high predicted body age (79.6 years), elevated BMI, high blood pressure reading, high cholesterol level, high blood glucose level, low physical activity level, former smoker status, and high stress level. By addressing these risk factors through gradual moderate exercise, balanced diet, improved sleep patterns, and stress management, the user can work towards reducing their health risks.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,79.64,75.296,passed,,,,2026-05-22T01:47:03
+9,1910,"Generate educational, personalized lifestyle recommendations from a synthetic health profile and predicted body age. Do not diagnose disease, do not infer chronological age, and do not give medication instructions.","{""Gender"": ""Female"", ""Height (cm)"": 154.173617902676, ""Weight (kg)"": 77.46798397297303, ""Blood Pressure (s/d)"": ""161/118"", ""Cholesterol Level (mg/dL)"": 272.8083488744993, ""BMI"": 32.59133319857922, ""Blood Glucose Level (mg/dL)"": 157.51653603795802, ""Bone Density (g/cm²)"": 0.0830021593690579, ""Vision Sharpness"": 0.2, ""Hearing Ability (dB)"": 79.66563545394321, ""Physical Activity Level"": ""Moderate"", ""Smoking Status"": ""Never"", ""Alcohol Consumption"": null, ""Diet"": ""Low-carb"", ""Chronic Diseases"": ""Heart Disease"", ""Medication Use"": ""Regular"", ""Family History"": ""Hypertension"", ""Cognitive Function"": 63.69826934178451, ""Mental Health Status"": ""Poor"", ""Sleep Patterns"": ""Normal"", ""Stress Levels"": 8.750369094379076, ""Pollution Exposure"": 4.761508234347266, ""Sun Exposure"": 9.378328018899817, ""Education Level"": null, ""Income Level"": ""High"", ""Predicted Body Age (years)"": 89.0, ""key_health_signals"": [""High predicted body age: 89.0 years"", ""BMI is in the obesity range: 32.6"", ""High blood pressure reading: 161/118"", ""High cholesterol: 272.8 mg/dL"", ""High blood glucose: 157.5 mg/dL"", ""High stress level: 8.8""]}","**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a female with a height of 154 cm and weight of 77 kg, classified as obese (BMI: 32.6). Her blood pressure reading is elevated at 161/118 mmHg, indicating potential hypertension concerns. Additionally, her cholesterol level is high at 272.8 mg/dL, and her blood glucose level is also elevated at 157.5 mg/dL.
+
+**Main Risk Signals**
+
+* High predicted body age: 89.0 years
+* BMI in the obesity range (32.6)
+* Elevated blood pressure reading (161/118 mmHg)
+* High cholesterol level (272.8 mg/dL)
+* High blood glucose level (157.5 mg/dL)
+* High stress level (8.8)
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given her high blood pressure, it is essential to recommend gradual moderate activity rather than intense exercise. Engage in activities like brisk walking, swimming, or cycling for at least 150 minutes per week.
+
+### Diet
+
+Considering her low-carb diet and obesity status, focus on incorporating more plant-based meals, whole grains, and lean protein sources. Aim to reduce daily sugar intake and increase fiber consumption.
+
+### Sleep and Stress
+
+* Maintain a consistent sleep schedule of 7-8 hours per night.
+* Engage in stress-reducing activities like meditation or yoga for at least 30 minutes, three times a week.
+
+### Smoking and Alcohol
+
+As she is a non-smoker, there are no specific recommendations. However, it is essential to monitor her alcohol consumption, if any, as excessive drinking can exacerbate existing health concerns.
+
+### Follow-up Checks
+
+Schedule regular check-ups with a qualified healthcare professional to monitor blood pressure, cholesterol, and glucose levels. These appointments will help track progress and make necessary adjustments to the recommended lifestyle changes.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to address the user's specific risk signals, including her high predicted body age, elevated blood pressure, high cholesterol, and obesity status. By incorporating gradual moderate activity, a balanced diet, stress management techniques, and regular follow-up checks, this individual can work towards mitigating these risks and improving overall health.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered as medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",llama3.1:8b,Local Ollama Llama3.1,89.0,69.873,passed,,,,2026-05-22T01:47:03

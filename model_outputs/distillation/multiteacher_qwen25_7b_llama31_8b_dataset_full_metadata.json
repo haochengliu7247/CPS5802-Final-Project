@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-22T17:12:48",
+  "method": "passed_only_full_merge",
+  "seed": 5802,
+  "qwen_csv": "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\distillation\\qwen25_7b_distillation_dataset_full.csv",
+  "llama_csv": "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\distillation\\llama31_8b_distillation_dataset_full.csv",
+  "output_csv": "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\distillation\\multiteacher_qwen25_7b_llama31_8b_dataset_full.csv",
+  "output_jsonl": "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\distillation\\multiteacher_qwen25_7b_llama31_8b_dataset_full.jsonl",
+  "qwen_passed_rows": 2938,
+  "llama_passed_rows": 2995,
+  "merged_rows": 5933,
+  "unique_person_index": 3000,
+  "source_teacher_family_counts": {
+    "Llama3.1-8B": 2995,
+    "Qwen2.5-7B": 2938
+  },
+  "note": "Multi-teacher distillation dataset built from quality-passed Qwen2.5-7B and Llama3.1-8B teacher responses. Review-needed and safety-violating responses are excluded. This is synthetic educational recommendation data, not clinical ground truth."
+}

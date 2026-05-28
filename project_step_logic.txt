@@ -1,0 +1,96 @@
+Project Logic for the CPS5802 Final Project
+
+Core Idea
+
+This project has three connected but distinct tracks:
+
+1. Age prediction track
+   Machine learning regression models predict body age from synthetic health and lifestyle features.
+
+2. Recommendation generation track
+   Predicted body age and the synthetic user profile are used to generate personalized educational lifestyle recommendations.
+
+3. Distillation and evaluation track
+   Qwen2.5-7B and Llama 3.1 8B teacher outputs are compared with Qwen2.5-0.5B LoRA students. The recommendation outputs are evaluated with MedGemma, deterministic rule-based hard safety checks, a manual GPT-5.5 small-sample reference judge, and targeted human review.
+
+Recommended Notebook Order
+
+Step 1: Dataset and exploratory data analysis
+- Load Train.csv and Test.csv.
+- Inspect columns, data types, missing values, and descriptive statistics.
+- Visualize numeric distributions, categorical counts, scatter relationships, and correlations.
+
+Step 2: Data preprocessing and multi-model age prediction
+- Parse blood pressure into systolic and diastolic features.
+- Fill missing numeric and categorical values.
+- Encode categorical variables and scale features where needed.
+- Compare Linear Regression, Random Forest, XGBoost, and MLP Regressor.
+
+Step 3: Best model selection and test prediction export
+- Select the best age-prediction model by validation MAE.
+- Retrain successful models on the full training set.
+- Export Test.csv body-age predictions under model_outputs/.
+
+Step 4: Prediction explainability
+- Use local sensitivity analysis to explain how feature changes affect predicted body age.
+- This explains the regression model, not the recommendation text.
+
+Step 5: Age prediction error analysis and visualization
+- Report validation errors, residual behavior, feature importance, and prediction distributions.
+
+Step 6: Final lifestyle recommendation workflow
+- Generate educational lifestyle recommendations using predicted body age and the synthetic profile.
+- Provider order: OpenAI if configured, local Ollama Qwen2.5, then local rule-based fallback.
+- The local fallback is a backup and comparison baseline, not the preferred final system.
+
+Step 7: Qwen2.5-7B teacher distillation dataset
+- Use the local Qwen teacher to generate instruction-response recommendation examples.
+- This improves recommendation-data quality, not age-prediction MAE/RMSE.
+
+Step 8: Qwen teacher vs local rule-based fallback comparison
+- Compare recommendation quality using actionability, explanation depth, feature evidence, format compliance, and safety checks.
+
+Step 9: Requirement coverage and project status
+- Summarize completed project components and distinguish model prediction, recommendation generation, and distillation work.
+
+Steps 10-14: Qwen2.5-0.5B LoRA student workflow
+- Prepare, train, verify, and compare a Qwen2.5-0.5B LoRA student distilled from Qwen teacher data.
+- Include rubric scoring and evaluation limitations.
+
+Steps 15-18: Llama teacher and multi-teacher student experiments
+- Add Llama 3.1 8B teacher data.
+- Train a Llama-teacher student and a multi-teacher student.
+- Compare the three student variants.
+
+Steps 19-21: Fair comparison set and five-model output organization
+- Build a common-passed aligned input set.
+- Run full filtered inference for three students.
+- Organize two teachers and three students into one five-model comparison structure.
+
+Step 22: MedGemma 27B Q4 judge evaluation
+- Evaluate the five model outputs with a judge model and summarize model-level and criterion-level results.
+
+Step 23: Training data filtering checklist
+- Document the filtering checks used to decide which teacher rows are suitable for student training.
+
+Step 24: Final five-model comparison and reporting limitations
+- Compare the five models while clearly avoiding claims of clinical accuracy.
+
+Steps 25-26: Single-profile output simulation and mock judge demonstration
+- Show a single-profile five-model output example and a compact mock-judge illustration.
+
+Step 27: Rule-based hard safety checks
+- Run deterministic hard safety checks across the aligned five-model output set.
+- This layer catches explicit safety-boundary and required-context failures.
+
+Step 28: GPT-5.5 small-sample reference judge
+- Use a manual blinded GPT-5.5 workflow on 250 sampled rows.
+- This is a reference layer and does not replace the full MedGemma or rule-based evaluations.
+
+Step 29: Targeted human review of 20 high-priority cases
+- Review difficult or ambiguous cases selected from GPT-5.5, rule-based, and MedGemma signals.
+- This is a targeted difficult-case audit, not a full-dataset pass-rate estimate.
+
+Step 30: Final triangulated safety and quality comparison
+- Combine MedGemma, rule-based safety, GPT-5.5, and targeted human-review evidence.
+- The final conclusion should emphasize complementary evidence layers rather than a single artificial accuracy number.

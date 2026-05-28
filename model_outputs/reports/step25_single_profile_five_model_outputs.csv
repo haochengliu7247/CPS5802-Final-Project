@@ -1,0 +1,179 @@
+﻿model_key,model_label,response_text,source_file,model_order
+teacher_qwen25_7b,Teacher: Qwen2.5-7B,"1. **Brief Profile Summary**
+   - The user is a male with a moderate physical activity level, former smoking status, and reports insomnia. His key health signals include an elevated BMI, high blood pressure, high cholesterol, and high blood glucose levels.
+
+2. **Main Risk Signals**
+   - High predicted body age: 88.0 years
+   - Elevated BMI: 29.4
+   - High blood pressure reading: 151/109 mmHg
+   - High cholesterol: 259.5 mg/dL
+   - High blood glucose: 157.7 mg/dL
+   - Former smoker with relapse prevention needs
+
+3. **Personalized Recommendations**
+   - **Exercise**: Gradually increase physical activity to moderate levels, focusing on low-impact activities like walking or swimming. This can help manage weight and improve cardiovascular health.
+   - **Diet**: Continue a low-carb diet but ensure balanced nutrition by incorporating more fruits, vegetables, lean proteins, and whole grains. Consider consulting a dietician for personalized meal planning.
+   - **Sleep and Stress**: Address insomnia through relaxation techniques such as deep breathing exercises or meditation. Aim for 7-9 hours of quality sleep per night to improve overall health and cognitive function.
+   - **Smoking and Alcohol**: Since the user is a former smoker, focus on maintaining this status by avoiding triggers that may lead to relapse. Stay physically active and engage in stress-reducing activities.
+   - **Follow-up Checks**: Schedule regular check-ups with a healthcare provider to monitor blood pressure, cholesterol, and glucose levels. This will help manage these risk factors effectively.
+
+4. **Why These Recommendations Match This User**
+   - The recommendations are tailored to address the user's elevated BMI, high blood pressure, and high cholesterol, which are critical for reducing cardiovascular risks.
+   - Addressing insomnia is crucial as poor sleep can exacerbate other health issues like hypertension and diabetes.
+   - Maintaining a former smoker status involves ongoing efforts to avoid relapse, supported by lifestyle changes that reduce stress.
+
+5. **Medical Disclaimer**
+   - The recommendations provided are general in nature and should be discussed with a qualified healthcare professional before implementation. They do not replace medical advice or diagnosis. Always consult your doctor for personalized guidance based on your specific health condition.",model_outputs\distillation\qwen25_7b_distillation_dataset_full.csv,0
+teacher_llama31_8b,Teacher: Llama 3.1 8B,"**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 171 cm and weight of 86 kg, resulting in a BMI of 29.4, categorizing him as overweight. His blood pressure reading is elevated at 151/109 mmHg, indicating potential cardiovascular risk. Additionally, his cholesterol level (259.5 mg/dL) and blood glucose level (157.7 mg/dL) are both high, suggesting metabolic syndrome. He has a history of smoking but is now a former smoker.
+
+**Main Risk Signals**
+
+1. Elevated BMI
+2. High Blood Pressure
+3. High Cholesterol Level
+4. High Blood Glucose Level
+5. Insomnia
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is recommended to start with gradual moderate physical activity rather than high-intensity exercise (HIIT). This can include activities such as brisk walking, cycling, or swimming for at least 30 minutes a day, five days a week. Gradually increasing the duration and intensity over time will help improve cardiovascular health.
+
+### Diet
+
+Considering his diet is currently low-carb, it might be beneficial to incorporate more balanced meals that include a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. This can help manage blood glucose levels and cholesterol. It's also advisable to limit or avoid foods high in saturated fats, added sugars, and sodium.
+
+### Sleep and Stress
+
+Given the user's insomnia, establishing a consistent sleep schedule is crucial. Aim for 7-8 hours of sleep each night by creating a relaxing bedtime routine (e.g., reading, meditation) and avoiding screens before bed. Additionally, stress management techniques such as deep breathing exercises, yoga, or mindfulness practices can help reduce stress levels.
+
+### Smoking and Alcohol
+
+As a former smoker, the user is at risk for relapse. Engaging in activities that promote smoking cessation, such as nicotine-free gum or patches (not recommended due to safety rules), might be helpful. However, since these are not allowed, focusing on maintaining a healthy lifestyle and avoiding triggers can aid in long-term abstinence.
+
+Regarding alcohol consumption, there is no information provided; however, it's always advisable for individuals with high blood pressure to limit their intake or avoid alcohol altogether.
+
+### Follow-up Checks
+
+Regular health check-ups with a qualified healthcare professional are essential. This will allow for monitoring of the user's progress and adjustments to be made as necessary. It's recommended that these checks occur every 3-6 months, especially considering his current health indicators.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored based on the key health signals provided in the user profile, including high predicted body age, elevated BMI, high blood pressure, cholesterol, and glucose levels, as well as a history of smoking and insomnia. The goal is to address these risk factors through lifestyle modifications that promote overall health and reduce the risk of chronic diseases.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered medical advice. It's crucial for individuals with significant health concerns or those who have not consulted a healthcare professional in recent times to do so before making any changes to their lifestyle.",model_outputs\distillation\llama31_8b_distillation_dataset_full.csv,1
+student_qwen_from_qwen,Student: 0.5B from Qwen,"1. **Brief Profile Summary**
+   - Male, moderate physical activity level.
+   - Former smoker with a history of relapse prevention.
+   - High predicted body age (88 years), elevated BMI (29.4), high blood pressure (151/109 mmHg), high cholesterol (259.5 mg/dL), and high blood glucose (157.7 mg/dL).
+   - Reports insomnia and has a good mental health status but experiences stress levels that could be improved.
+
+2. **Main Risk Signals**
+   - High predicted body age: 88 years
+   - Elevated BMI: 29.4
+   - High blood pressure reading: 151/109 mmHg
+   - High cholesterol: 259.5 mg/dL
+   - High blood glucose: 157.7 mg/dL
+   - Former smoker with a risk of relapse
+
+3. **Personalized Recommendations**
+   - **Exercise**: Gradually increase moderate physical activity to at least 150 minutes per week, focusing on activities like brisk walking or cycling. This can help manage weight and improve cardiovascular health.
+   - **Diet**: Continue with low-carb diet but ensure balanced nutrition by incorporating more fruits, vegetables, lean proteins, and whole grains. Consider consulting a dietician for personalized meal planning.
+   - **Sleep and Stress**: Address insomnia through relaxation techniques such as deep breathing exercises or meditation. Aim for 7-9 hours of quality sleep per night. Manage stress levels with regular mindfulness practices or engaging in hobbies that reduce anxiety.
+   - **Smoking and Alcohol**: Since you are a former smoker, focus on maintaining your quit status by avoiding triggers and seeking support if needed. Avoid alcohol consumption as it can exacerbate blood pressure issues.
+   - **Follow-up Checks**: Schedule regular check-ups with a healthcare provider to monitor blood pressure, cholesterol levels, and glucose levels. Discuss any concerns about high predicted body age.
+
+4. **Why These Recommendations Match This User**
+   - The recommendations are tailored to address the user's main risk signals such as high blood pressure, elevated BMI, and high cholesterol.
+   - Gradual exercise and balanced diet adjustments help manage weight and improve overall health without overwhelming the individual.
+   - Addressing sleep and stress is crucial given their impact on cardiovascular health and mental well-being.
+   - Maintaining a quit status for smoking helps prevent relapse while supporting long-term health goals.
+
+5. **Medical Disclaimer**
+   - The information provided is for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider before making any changes to your lifestyle or seeking medical attention.",model_outputs\student_filtered_passed_inference\student_from_qwen\student_sample_outputs.csv,2
+student_qwen_from_llama,Student: 0.5B from Llama,"**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 171 cm and weight of 86 kg, classified as moderately active. His BMI is elevated at 29.4, indicating an increased risk for various health conditions.
+
+**Main Risk Signals**
+
+* Elevated Blood Pressure (151/109)
+* High Cholesterol Level (259.5 mg/dL)
+* High Blood Glucose Level (157.7 mg/dL)
+* Insomnia reported
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is essential to recommend gradual moderate activity rather than intense exercise. Suggest engaging in activities like brisk walking, cycling, or swimming for at least 30 minutes per session, 3-4 times a week.
+
+### Diet
+
+Considering the user's low-carb diet and elevated BMI, suggest incorporating more fiber-rich foods, fruits, and vegetables into their meals. Also, encourage them to limit processed and high-sugar foods.
+
+### Sleep and Stress
+
+Given the user's insomnia report, recommend establishing a consistent sleep schedule and creating a relaxing bedtime routine. Additionally, suggest stress-reducing techniques such as meditation or deep breathing exercises.
+
+### Smoking and Alcohol
+
+As a former smoker, it is crucial to continue relapse prevention strategies. Encourage the user to avoid triggers and engage in healthy coping mechanisms. Since there is no information on alcohol consumption, advise against excessive drinking if they choose to consume alcohol.
+
+### Follow-up Checks
+
+Schedule regular check-ups with a qualified healthcare professional every 3-6 months to monitor blood pressure, cholesterol levels, and glucose control. This will help track progress and make any necessary adjustments to the recommended lifestyle changes.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored to address the user's specific health concerns, including elevated blood pressure, high cholesterol, and high blood glucose levels. By incorporating gradual moderate activity, a balanced diet, improved sleep habits, and stress management techniques, we aim to reduce the risk of chronic diseases associated with these factors.
+
+**Medical Disclaimer**
+
+Please note that these recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",model_outputs\student_filtered_passed_inference\student_from_llama\student_sample_outputs.csv,3
+student_qwen_from_both,Student: 0.5B from Both,"**Brief Profile Summary**
+
+Based on the provided user profile, this individual is a male with a height of 171 cm and weight of 86 kg, resulting in a BMI of 29.4, which falls into the overweight category. His blood pressure reading is elevated at 151/109 mmHg, indicating high blood pressure. Additionally, his cholesterol level is high at 259.5 mg/dL, and his blood glucose level is also elevated at 157.7 mg/dL.
+
+**Main Risk Signals**
+
+* High predicted body age: 88 years
+* Elevated BMI (29.4)
+* High blood pressure reading: 151/109 mmHg
+* High cholesterol: 259.5 mg/dL
+* High blood glucose: 157.7 mg/dL
+
+**Personalized Recommendations**
+
+### Exercise
+
+Given the user's high blood pressure, it is essential to recommend gradual moderate activity rather than intense exercise. The American Heart Association suggests at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity aerobic physical activity per week. Considering the user's current physical activity level is ""Moderate,"" we suggest increasing their daily step count by 30% and engaging in activities like brisk walking, cycling, or swimming for at least 30 minutes, five days a week.
+
+### Diet
+
+The user follows a low-carb diet, which may be beneficial for weight management but might not address the high cholesterol levels. We recommend incorporating more plant-based meals, focusing on whole grains, fruits, vegetables, lean proteins, and healthy fats. Aiming for 5 servings of colorful fruits and vegetables daily can help lower cholesterol levels.
+
+### Sleep and Stress
+
+The user reports insomnia, which can significantly impact overall health. Establishing a consistent sleep schedule, avoiding caffeine and electronics before bedtime, and creating a relaxing bedtime routine can improve sleep quality. Additionally, stress management techniques such as meditation or deep breathing exercises can help reduce stress levels.
+
+### Smoking and Alcohol
+
+As the user is a former smoker, we emphasize the importance of continued relapse prevention strategies. This includes avoiding triggers that may lead to smoking again. Since there is no information on alcohol consumption, we advise moderation if they choose to consume alcohol.
+
+### Follow-up Checks
+
+Regular health check-ups are crucial for monitoring progress and making adjustments as needed. It is recommended that the user consults a qualified healthcare professional every 3-6 months to track changes in key health signals.
+
+**Why These Recommendations Match This User**
+
+These recommendations are tailored based on the user's specific risk factors, including high predicted body age, elevated BMI, high blood pressure, high cholesterol, and high blood glucose levels. The suggestions aim to address these concerns through gradual moderate activity, balanced diet, improved sleep habits, stress management, and regular follow-up checks with a healthcare professional.
+
+**Medical Disclaimer**
+
+These recommendations are for educational purposes only and should not be considered a substitute for professional medical advice. It is essential to consult with a qualified healthcare professional before making any significant changes to your lifestyle or treatment plan.",model_outputs\student_filtered_passed_inference\student_from_both\student_sample_outputs.csv,4

@@ -1,0 +1,12 @@
+﻿Requirement,Status,Evidence
+Compare multiple models,Completed,"Linear Regression, Random Forest, XGBoost, and MLP Regressor are compared in model_comparison_df."
+Explain best model reason,Completed,Best model is selected by lowest validation MAE; current best is Linear Regression.
+"MAE, MSE/RMSE, R2",Completed,"Model Comparison section reports MSE, RMSE, MAE, and R2."
+Predicted-vs-actual plots,Completed,model_outputs/figures/predicted_vs_actual_*.png.
+Feature importance plots,Completed,Random Forest and XGBoost feature importance figures are saved.
+Separate CSV prediction outputs for each model,Completed,Each model has model_outputs/<Model>/test_predictions.csv with 3000 rows.
+Local Qwen2.5-7B deployment,Completed,Ollama portable and qwen2.5:7b-instruct are installed under E:\CPS5802_Qwen_Ollama.
+Qwen distillation dataset,Completed,"10 representative Qwen teacher samples are quality-checked; best available full run has generated 3000 rows, with 2938 passing quality checks."
+Show advantage of Qwen distillation over previous fallback,Completed,"Qwen teacher responses are compared with the local rule fallback using quality score, action diversity, explanation depth, feature coverage, safety compliance, and per-sample visualizations."
+Full 3000-row distillation,Completed,"Full-size Qwen teacher distillation is complete: 3000 of 3000 Test.csv rows generated, with 2938 rows passing quality checks."
+Medical disclaimer and safe LLM prompt,Completed,Improved prompt forbids diagnosis/medication advice and states synthetic educational-only use.

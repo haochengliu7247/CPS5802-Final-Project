@@ -1,0 +1,21 @@
+{
+  "teacher_model": "qwen2.5:7b-instruct",
+  "recommendation_source": "Local Ollama Qwen2.5",
+  "ollama_url": "http://127.0.0.1:11434/api/chat",
+  "sample_size_requested": 10,
+  "rows_generated": 10,
+  "rows_passed_quality_check": 10,
+  "input_dataset": "Test.csv plus LinearRegression predicted body age",
+  "output_csv": "model_outputs\\distillation\\qwen25_7b_distillation_dataset.csv",
+  "output_jsonl": "model_outputs\\distillation\\qwen25_7b_distillation_dataset.jsonl",
+  "created_at": "2026-05-18T20:43:31",
+  "note": "This is a synthetic educational distillation dataset generated locally with Qwen2.5-7B-Instruct through Ollama. It is not medical diagnosis data.",
+  "last_repaired_at": "2026-05-18T21:59:47",
+  "coverage_note": "Full Qwen teacher distillation run is complete: 3000 of 3000 rows generated.",
+  "estimated_full_generation_time_hours": 16.39,
+  "rows_with_synthetic_disclaimer": 10,
+  "representative_rows_generated": 10,
+  "representative_rows_passed_quality_check": 10,
+  "best_available_rows_generated": 3000,
+  "best_available_rows_passed_quality_check": 2938
+}

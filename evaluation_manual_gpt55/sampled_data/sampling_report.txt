@@ -1,0 +1,23 @@
+Manual GPT-5.5 reference judge sampling report
+===============================================
+
+random_seed: 42
+samples_per_model: 50
+sampling_mode: shared_question_id
+fallback_reason: N/A
+original_data_path: model_outputs\reports\step21_five_model_common_passed_outputs_long.csv
+test_profile_path: Test.csv
+checklist_workbook_path: checklist\Guideline-derived evaluation checklist\Guideline-derived evaluation checklist.xlsx
+shared_question_id_count_available: 2933
+sampled_question_id_count: 50
+sampled_row_count: 250
+
+Rows by model_id:
+M1_teacher_Qwen2.5-7B                                       50
+M2_teacher_Llama3.1-8B                                      50
+M3_student_Qwen2.5-0.5B_from_Qwen2.5-7B                     50
+M4_student_Qwen2.5-0.5B_from_Llama3.1-8B                    50
+M5_student_Qwen2.5-0.5B_from_Qwen2.5-7B_plus_Llama3.1-8B    50
+
+Model identities are retained only in local CSV/XLSX files for aggregation.
+The prompt-generation script hides model_id and teacher/student labels from GPT-5.5.

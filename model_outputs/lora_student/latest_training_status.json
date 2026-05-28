@@ -1,0 +1,9 @@
+﻿{
+    "status":  "completed",
+    "started_at":  "2026-05-20T21:20:14",
+    "ended_at":  "2026-05-20T22:46:58",
+    "lora_root":  "D:\\CPS5802_Qwen_LoRA",
+    "final_adapter":  "D:\\CPS5802_Qwen_LoRA\\student_qwen25_05b_lora\\final_adapter",
+    "eval_dir":  "D:\\CPS5802_Qwen_LoRA\\student_qwen25_05b_lora\\eval",
+    "transcript":  "D:\\CPS5802_Qwen_LoRA\\logs\\train_qwen25_05b_lora_20260520_212014.transcript.log"
+}

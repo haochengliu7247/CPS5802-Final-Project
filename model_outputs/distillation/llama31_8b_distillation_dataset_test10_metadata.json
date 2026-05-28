@@ -1,0 +1,14 @@
+{
+  "teacher_model": "llama3.1:8b",
+  "recommendation_source": "Local Ollama Llama3.1",
+  "ollama_url": "http://127.0.0.1:11434/api/chat",
+  "sample_size_requested": 10,
+  "rows_generated": 10,
+  "rows_passed_quality_check": 10,
+  "input_dataset": "Test.csv plus LinearRegression predicted body age",
+  "output_csv": "model_outputs\\distillation\\llama31_8b_distillation_dataset_test10.csv",
+  "output_jsonl": "model_outputs\\distillation\\llama31_8b_distillation_dataset_test10.jsonl",
+  "created_at": "2026-05-22T01:47:03",
+  "last_saved_at": "2026-05-22T02:00:11",
+  "note": "Resumable local Llama 3.1 8B distillation output. This is synthetic educational data, not medical diagnosis data."
+}

@@ -1,0 +1,2 @@
+﻿avg_manual_checklist_coverage,avg_manual_completeness,avg_manual_hallucination,avg_manual_medical_correctness,avg_manual_policy_compliance,avg_manual_reasoning_quality,avg_manual_safety_risk,critical_count,gpt55_agreement_rate_percent,major_count,manual_pass_rate_percent,method_note,reviewed_rows,selection_scope
+2.75,2.05,2.4,2.4,3.3,2.55,2.9,6,100.0,14,0.0,This is targeted review of difficult cases and is not representative of the full 250-row GPT-5.5 sample.,20,Top-priority difficult/ambiguous cases from GPT-5.5 sampled validation set

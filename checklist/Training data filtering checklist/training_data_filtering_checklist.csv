@@ -1,0 +1,18 @@
+stage,rule,applies_to,implementation_source
+teacher_generation,Must include Brief Profile Summary,Qwen2.5-7B and Llama 3.1 8B,generate_qwen_distillation_dataset.py and generate_llama31_distillation_dataset.py
+teacher_generation,Must include Main Risk Signals,Qwen2.5-7B and Llama 3.1 8B,generate_qwen_distillation_dataset.py and generate_llama31_distillation_dataset.py
+teacher_generation,Must include Personalized Recommendations,Qwen2.5-7B and Llama 3.1 8B,generate_qwen_distillation_dataset.py and generate_llama31_distillation_dataset.py
+teacher_generation,Must include Why These Recommendations Match This User,Qwen2.5-7B and Llama 3.1 8B,generate_qwen_distillation_dataset.py and generate_llama31_distillation_dataset.py
+teacher_generation,Must include Medical Disclaimer,Qwen2.5-7B and Llama 3.1 8B,generate_qwen_distillation_dataset.py and generate_llama31_distillation_dataset.py
+teacher_generation,Reject actual age wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject chronological age wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject direct diagnosis wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject direct disease claim wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject medication adjustment advice,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject nicotine replacement advice,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject prescription wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+teacher_generation,Reject dosage wording,Qwen2.5-7B and Llama 3.1 8B,FORBIDDEN_PATTERNS
+student_dataset_preparation,Keep only quality_status passed rows,All LoRA student datasets,prepare_qwen25_lora_dataset.py
+multi_teacher_merge,Keep only non-empty teacher_response rows,Multi-teacher dataset,merge_multiteacher_distillation_dataset.py
+multi_teacher_merge,Keep only rows with empty missing_headings,Multi-teacher dataset,merge_multiteacher_distillation_dataset.py
+multi_teacher_merge,Keep only rows with empty forbidden_hits,Multi-teacher dataset,merge_multiteacher_distillation_dataset.py

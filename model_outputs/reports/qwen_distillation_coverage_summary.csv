@@ -1,0 +1,8 @@
+Metric,Value
+Total Test.csv rows,3000.0
+Representative Qwen rows generated,10.0
+Representative Qwen rows passed quality check,10.0
+Best available Qwen rows generated,3000.0
+Best available Qwen rows passed quality check,2938.0
+Best available distillation coverage percent,100.0
+Best available quality pass rate percent,97.933

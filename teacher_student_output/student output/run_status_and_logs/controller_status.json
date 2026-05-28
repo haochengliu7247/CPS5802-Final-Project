@@ -1,0 +1,8 @@
+﻿{
+    "stage":  "package",
+    "status":  "running",
+    "message":  "",
+    "updated_at":  "2026-05-24T05:05:35.9400436+08:00",
+    "output_root":  "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\student_filtered_passed_inference",
+    "transcript":  "C:\\Users\\wku\\Desktop\\CPS5802-Machine Learning Innovations final project\\CPS5802-Machine Learning Innovations final project\\model_outputs\\student_filtered_passed_inference\\job_logs\\three_student_filtered_inference_20260524_042318.transcript.log"
+}

@@ -1,0 +1,4 @@
+﻿model_key,model_label,word_count,bullet_count,required_heading_coverage,action_verb_count,explanation_connector_count,numeric_evidence_count,medical_disclaimer_present,model_order
+student_qwen_from_qwen,Student: 0.5B from Qwen,373.23457211046707,25.569382884418683,1.0,13.358336174565292,1.445618820320491,16.81418342993522,1.0,2
+student_qwen_from_llama,Student: 0.5B from Llama,407.8973747016706,5.284691442209342,1.0,8.936242754858506,2.2625298329355608,13.283327650869417,1.0,3
+student_qwen_from_both,Student: 0.5B from Both,404.9079440845551,5.101943402659393,1.0,9.127514490282987,2.196385952949199,13.95329014660757,1.0,4
