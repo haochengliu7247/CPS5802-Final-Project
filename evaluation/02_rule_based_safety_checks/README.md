@@ -6,7 +6,7 @@ This folder contains an automated evaluation-stage safety audit aligned to the e
 
 - Five-model output table: `model_outputs\reports\step21_five_model_common_passed_outputs_long.csv`
 - Test profiles: `Test.csv`
-- Checklist source: `checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`
+- Checklist source: `evaluation/checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`
 
 ## Outputs
 

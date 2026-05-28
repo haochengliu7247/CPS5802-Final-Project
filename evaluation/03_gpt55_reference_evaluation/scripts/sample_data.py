@@ -13,7 +13,7 @@ SAMPLES_PER_MODEL = 50
 ORIGINAL_DATA_PATH = Path("model_outputs") / "reports" / "step21_five_model_common_passed_outputs_long.csv"
 TEST_PROFILE_PATH = Path("Test.csv")
 CHECKLIST_WORKBOOK_PATH = (
-    Path("checklist")
+    Path("evaluation") / "checklist"
     / "Guideline-derived evaluation checklist"
     / "Guideline-derived evaluation checklist.xlsx"
 )
@@ -40,7 +40,7 @@ MODEL_ORDER = list(MODEL_ID_MAP.values())
 
 
 def project_root():
-    return Path(__file__).resolve().parents[2]
+    return Path(__file__).resolve().parents[3]
 
 
 def workflow_dir():

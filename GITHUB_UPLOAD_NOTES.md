@@ -12,7 +12,7 @@ The largest included files are the rule-based item-level audit table and the
 three LoRA adapter weights:
 
 ```text
-model_outputs/rule_based_hard_safety_checks/rule_based_hard_safety_item_level.csv
+evaluation/02_rule_based_safety_checks/rule_based_hard_safety_item_level.csv
 model_outputs/lora_student/final_adapter/adapter_model.safetensors
 model_outputs/lora_student_llama31_teacher/final_adapter/adapter_model.safetensors
 model_outputs/lora_student_multiteacher_qwen_llama31/final_adapter/adapter_model.safetensors

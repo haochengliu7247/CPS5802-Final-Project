@@ -293,7 +293,7 @@ def workflow_dir():
 
 def main():
     wf_dir = workflow_dir()
-    out_dir = wf_dir / "human_review_20"
+    out_dir = wf_dir.parent / "04_human_review_validation" / "human_review_20"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     selected_path = out_dir / "selected_20_candidates.csv"

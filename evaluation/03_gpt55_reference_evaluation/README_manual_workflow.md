@@ -4,7 +4,7 @@ This folder supports a manual ChatGPT / GPT-5.5 reference-judge workflow. It doe
 
 The workflow uses the existing professional medical checklist in this project:
 
-`checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`
+`evaluation/checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`
 
 Model identities are kept in local CSV/XLSX files for aggregation, but they are hidden from the GPT-5.5 batch prompts.
 
@@ -13,37 +13,37 @@ Model identities are kept in local CSV/XLSX files for aggregation, but they are 
 Run:
 
 ```powershell
-python evaluation_manual_gpt55/scripts/sample_data.py
+python evaluation/03_gpt55_reference_evaluation/scripts/sample_data.py
 ```
 
 This creates:
 
-- `evaluation_manual_gpt55/sampled_data/sampled_250_rows.csv`
-- `evaluation_manual_gpt55/sampled_data/sampled_250_rows.xlsx`
-- `evaluation_manual_gpt55/sampled_data/sampling_report.txt`
+- `evaluation/03_gpt55_reference_evaluation/sampled_data/sampled_250_rows.csv`
+- `evaluation/03_gpt55_reference_evaluation/sampled_data/sampled_250_rows.xlsx`
+- `evaluation/03_gpt55_reference_evaluation/sampled_data/sampling_report.txt`
 
 ## Step 2
 
 Run:
 
 ```powershell
-python evaluation_manual_gpt55/scripts/make_batch_prompts.py
+python evaluation/03_gpt55_reference_evaluation/scripts/make_batch_prompts.py
 ```
 
 This creates:
 
-- `evaluation_manual_gpt55/prompts/batch_prompts/batch_001.md`
-- `evaluation_manual_gpt55/prompts/batch_prompts/batch_002.md`
+- `evaluation/03_gpt55_reference_evaluation/prompts/batch_prompts/batch_001.md`
+- `evaluation/03_gpt55_reference_evaluation/prompts/batch_prompts/batch_002.md`
 - ...
-- `evaluation_manual_gpt55/prompts/all_batches_combined.md`
-- `evaluation_manual_gpt55/result_templates/gpt55_results_template.csv`
-- `evaluation_manual_gpt55/result_templates/gpt55_results_template.xlsx`
+- `evaluation/03_gpt55_reference_evaluation/prompts/all_batches_combined.md`
+- `evaluation/03_gpt55_reference_evaluation/result_templates/gpt55_results_template.csv`
+- `evaluation/03_gpt55_reference_evaluation/result_templates/gpt55_results_template.xlsx`
 
 ## Step 3
 
 Open:
 
-`evaluation_manual_gpt55/prompts/batch_prompts/batch_001.md`
+`evaluation/03_gpt55_reference_evaluation/prompts/batch_prompts/batch_001.md`
 
 ## Step 4
 
@@ -55,11 +55,11 @@ Copy GPT-5.5 TSV output into Excel.
 
 Use the template:
 
-`evaluation_manual_gpt55/result_templates/gpt55_results_template.xlsx`
+`evaluation/03_gpt55_reference_evaluation/result_templates/gpt55_results_template.xlsx`
 
 or:
 
-`evaluation_manual_gpt55/result_templates/gpt55_results_template.csv`
+`evaluation/03_gpt55_reference_evaluation/result_templates/gpt55_results_template.csv`
 
 ## Step 6
 
@@ -71,28 +71,28 @@ With the default batch size of 10 rows, 250 evaluation rows produce 25 batch fil
 
 Save the filled results as:
 
-`evaluation_manual_gpt55/results/gpt55_results_filled.csv`
+`evaluation/03_gpt55_reference_evaluation/results/gpt55_results_filled.csv`
 
 Alternative: if ChatGPT / GPT-5.5 returns space-separated text or wraps long reasons across lines, paste all raw batch outputs into:
 
-`evaluation_manual_gpt55/results/gpt55_raw_outputs.txt`
+`evaluation/03_gpt55_reference_evaluation/results/gpt55_raw_outputs.txt`
 
 Then run:
 
 ```powershell
-python evaluation_manual_gpt55/scripts/parse_raw_gpt55_txt.py
+python evaluation/03_gpt55_reference_evaluation/scripts/parse_raw_gpt55_txt.py
 ```
 
 This will create:
 
-`evaluation_manual_gpt55/results/gpt55_results_filled.csv`
+`evaluation/03_gpt55_reference_evaluation/results/gpt55_results_filled.csv`
 
 ## Step 8
 
 Run:
 
 ```powershell
-python evaluation_manual_gpt55/scripts/validate_filled_results.py
+python evaluation/03_gpt55_reference_evaluation/scripts/validate_filled_results.py
 ```
 
 The validator checks that all 250 `eval_id` values are present, no duplicates exist, score columns are integers from 1 to 5, and `overall_pass` uses `TRUE` or `FALSE`.
@@ -102,16 +102,16 @@ The validator checks that all 250 `eval_id` values are present, no duplicates ex
 Run:
 
 ```powershell
-python evaluation_manual_gpt55/scripts/aggregate_results.py
+python evaluation/03_gpt55_reference_evaluation/scripts/aggregate_results.py
 ```
 
 ## Step 10
 
 Use these files for the paper/project:
 
-- `evaluation_manual_gpt55/results/summary_by_model.csv`
-- `evaluation_manual_gpt55/results/summary_overall.csv`
-- `evaluation_manual_gpt55/results/aggregated_results_by_model.csv`
+- `evaluation/03_gpt55_reference_evaluation/results/summary_by_model.csv`
+- `evaluation/03_gpt55_reference_evaluation/results/summary_overall.csv`
+- `evaluation/03_gpt55_reference_evaluation/results/aggregated_results_by_model.csv`
 
 ## Privacy Note
 

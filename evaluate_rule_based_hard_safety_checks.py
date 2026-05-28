@@ -9,7 +9,7 @@ import pandas as pd
 
 DEFAULT_OUTPUTS_PATH = Path("model_outputs") / "reports" / "step21_five_model_common_passed_outputs_long.csv"
 DEFAULT_TEST_PATH = Path("Test.csv")
-DEFAULT_OUTPUT_DIR = Path("model_outputs") / "rule_based_hard_safety_checks"
+DEFAULT_OUTPUT_DIR = Path("evaluation") / "02_rule_based_safety_checks"
 
 REQUIRED_HEADINGS = [
     "Brief Profile Summary",
@@ -962,7 +962,7 @@ def write_markdown_summary(output_dir, model_summary, rule_summary, args):
         "",
         "- Five-model output table: `{}`".format(args.outputs_path),
         "- Test profiles: `{}`".format(args.test_path),
-        "- Checklist source: `checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`",
+        "- Checklist source: `evaluation/checklist/Guideline-derived evaluation checklist/Guideline-derived evaluation checklist.xlsx`",
         "",
         "## Outputs",
         "",

@@ -27,7 +27,7 @@ This project was reviewed in five passes before creating this GitHub-ready copy.
 ## Pass 3: Code and Dependencies
 
 - Reviewed 17 Python scripts, including root project scripts and the
-  `evaluation_manual_gpt55/scripts/` workflow helpers.
+  `evaluation/03_gpt55_reference_evaluation/scripts/` workflow helpers.
 - Python syntax parsing completed without syntax errors.
 - The dependency set was consolidated into `requirements.txt`.
 - The original LoRA dependency file was kept as `requirements-qwen-lora.txt`.
@@ -38,9 +38,9 @@ This project was reviewed in five passes before creating this GitHub-ready copy.
 - `Test.csv`: 3000 rows, 25 columns.
 - `model_outputs/reports`: 38 files.
 - `model_outputs/figures`: 61 files.
-- `model_outputs/rule_based_hard_safety_checks`: 6 files.
-- `evaluation_manual_gpt55`: 59 files.
-- `final judge data`: 20 files.
+- `evaluation/02_rule_based_safety_checks`: 6 files.
+- `evaluation/03_gpt55_reference_evaluation`: GPT-5.5 workflow files.
+- `evaluation/01_medgemma_automated_judge`: 20 files.
 - Large local-only model/cache folders were excluded, while project artifacts
   needed for review and reproducibility were kept.
 

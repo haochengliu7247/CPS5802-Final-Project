@@ -145,7 +145,7 @@ def main():
     print("Parsed records:", len(records))
     print("Unique eval_id rows saved:", len(df))
     print("Saved:", args.output)
-    print("Next run: python evaluation_manual_gpt55/scripts/validate_filled_results.py")
+    print("Next run: python evaluation/03_gpt55_reference_evaluation/scripts/validate_filled_results.py")
 
 
 if __name__ == "__main__":

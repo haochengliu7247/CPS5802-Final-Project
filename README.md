@@ -1,4 +1,4 @@
-﻿# CPS5802 Machine Learning Innovations Final Project
+# CPS5802 Machine Learning Innovations Final Project
 
 This repository contains a completed final project for synthetic human age prediction,
 personalized lifestyle recommendation generation, and teacher-student LLM distillation
@@ -16,20 +16,18 @@ triangulated safety/quality comparison.
 Main entry point:
 
 ```text
-human-age-prediction-synthetic-dataset-eda-predict-recommendation-final_project.ipynb
+00_main_project_notebook/human-age-prediction-synthetic-dataset-eda-predict-recommendation-final_project.ipynb
 ```
 
 ## Main Contents
 
 ```text
+00_main_project_notebook/                    Main final-project notebook
 Train.csv / Test.csv                         Synthetic project data
 *.py                                         Distillation, LoRA, evaluation, and report scripts
 *.ps1                                        Windows PowerShell setup/training helpers
-model_outputs/                               Predictions, figures, reports, adapters, and evaluations
-model_outputs/rule_based_hard_safety_checks/ Deterministic hard-safety checker outputs
-final judge data/                            MedGemma judge outputs for five models
-checklist/                                   Evaluation and filtering checklist artifacts
-evaluation_manual_gpt55/                     Manual GPT-5.5 reference-judge and human-review workflow
+model_outputs/                               Predictions, figures, reports, adapters, and generated outputs
+evaluation/                                  Organized evaluation evidence, judge outputs, safety checks, and checklists
 teacher_student_output/                      Organized teacher/student output copy
 requirements.txt                             General project dependencies
 requirements-qwen-lora.txt                   Original LoRA-focused dependency list
@@ -85,7 +83,7 @@ pip install -r requirements.txt
 Open the main notebook:
 
 ```powershell
-jupyter notebook human-age-prediction-synthetic-dataset-eda-predict-recommendation-final_project.ipynb
+jupyter notebook 00_main_project_notebook/human-age-prediction-synthetic-dataset-eda-predict-recommendation-final_project.ipynb
 ```
 
 For safer GitHub upload, embedded PNG output data was removed from the copied
@@ -108,13 +106,13 @@ python evaluate_rule_based_hard_safety_checks.py
 GPT-5.5 reference judge：
 
 ```powershell
-python evaluation_manual_gpt55/scripts/sample_data.py
-python evaluation_manual_gpt55/scripts/make_batch_prompts.py
-python evaluation_manual_gpt55/scripts/validate_filled_results.py
-python evaluation_manual_gpt55/scripts/aggregate_results.py
+python evaluation/03_gpt55_reference_evaluation/scripts/sample_data.py
+python evaluation/03_gpt55_reference_evaluation/scripts/make_batch_prompts.py
+python evaluation/03_gpt55_reference_evaluation/scripts/validate_filled_results.py
+python evaluation/03_gpt55_reference_evaluation/scripts/aggregate_results.py
 ```
 
-See `evaluation_manual_gpt55/README_manual_workflow.md` for the copy-paste judging
+See `evaluation/03_gpt55_reference_evaluation/README_manual_workflow.md` for the copy-paste judging
 steps and result aggregation details.
 
 ## Notes
@@ -126,4 +124,3 @@ steps and result aggregation details.
   provided. No real API keys are included in this repository.
 - The base Qwen model weights are not included. Download them from Hugging Face
   when reproducing training or inference.
-
